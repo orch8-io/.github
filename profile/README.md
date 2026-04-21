@@ -8,7 +8,7 @@
 
 Define workflows as composable JSON sequences. Every step completes, retries, or surfaces in a dead-letter queue.<br>No lost work. No silent failures. No JVM. No Redis. No Kafka.
 
-[Website](https://orch8.io) &nbsp;&bull;&nbsp; [Documentation](https://orch8.io/docs) &nbsp;&bull;&nbsp; [Cloud](https://cloud.orch8.io) &nbsp;&bull;&nbsp; [Templates](https://orch8.io/templates)
+[Website](https://orch8.io) &nbsp;&bull;&nbsp; [Docs](https://orch8.io/docs) &nbsp;&bull;&nbsp; [API](https://orch8.io/docs/api) &nbsp;&bull;&nbsp; [Cloud](https://cloud.orch8.io) &nbsp;&bull;&nbsp; [Templates](https://orch8.io/templates)
 
 ---
 
@@ -17,9 +17,10 @@ Define workflows as composable JSON sequences. Every step completes, retries, or
 ### &nbsp;&nbsp; Why Orch8
 
 &emsp; **Snapshot-based resume** &mdash; O(1) crash recovery, no history replay, no determinism constraints<br>
-&emsp; **7 block types** &mdash; Step &middot; Parallel &middot; Race &middot; Router &middot; TryCatch &middot; Loop &middot; ForEach<br>
+&emsp; **10 block types** &mdash; Step &middot; Parallel &middot; Race &middot; Router &middot; TryCatch &middot; Loop &middot; ForEach &middot; SubSequence &middot; ABSplit &middot; CancellationScope<br>
 &emsp; **Rate limiting** &mdash; per-resource sliding window, defers instead of rejects<br>
 &emsp; **Polyglot workers** &mdash; write handlers in any language via pull-based REST API<br>
+&emsp; **200+ integrations** &mdash; native Activepieces connectors, no custom code<br>
 &emsp; **1M+ instances per node** &mdash; < 512MB RAM, < 10ms p99 engine overhead<br>
 
 ---
@@ -81,16 +82,8 @@ Need to embed Orch8 in your SaaS? [Get a commercial license](mailto:hello@orch8.
 
 ---
 
-### &nbsp;&nbsp; Built by
-
-**Oleksii Vasylenko** &mdash; solo developer and founder. Building developer tools and workflow infrastructure.
-
-[ovasylenko.com](https://www.ovasylenko.com) &nbsp;&bull;&nbsp; [hello@orch8.io](mailto:hello@orch8.io)
-
----
-
 <div align="center">
 
-[hello@orch8.io](mailto:hello@orch8.io) &nbsp;&bull;&nbsp; [orch8.io](https://orch8.io) &nbsp;&bull;&nbsp; [Cloud Dashboard](https://cloud.orch8.io) &nbsp;&bull;&nbsp; [API Docs](https://orch8.io/docs/api)
+Built by **[Oleksii Vasylenko](https://www.ovasylenko.com)** &nbsp;&bull;&nbsp; [hello@orch8.io](mailto:hello@orch8.io)
 
 </div>
